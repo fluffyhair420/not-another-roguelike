@@ -12,9 +12,6 @@ class EventHandler(tcod.event.EventDispatch[Action]):
     Currently:
     - Arrow keys move the player
     - Escape key exits the game
-
-    Args:
-        tcod (module): The tcod module.
     """
 
     def ev_quit(self, event: tcod.event.Quit) -> Optional[Action]:
